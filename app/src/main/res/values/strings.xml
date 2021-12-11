@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">MEGA FORCE</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="spnArrServicios">
+        <item>Cardio y Musculación</item>
+        <item>Nutricionista</item>
+        <item>Entrenamiento Personalizado</item>
+    </string-array>
+    <string-array name="spnArrTurno">
+        <item>Mañana</item>
+        <item>Tarde</item>
+        <item>Noche</item>
+    </string-array>
+    <string-array name="spnArrDisciplina">
+        <item>BAILE</item>
+        <item>SPINNING</item>
+        <item>PILATES</item>
+        <item>BODY STEP LOCALIZADOS</item>
+        <item>GIM. ORIENTAL Y YOGA</item>
+        <item>KARATE</item>
+
+    </string-array>
+    <string-array name="spnArrPeriodo">
+        <item>DICIEMBRE 2021</item>
+        <item>ENERO 2022</item>
+        <item>FEBRERO 2022</item>
+    </string-array>
+    <string-array name="spnArrProfesor">
+        <item>CARLOS NORUEGA</item>
+        <item>DANIELA DEL RIO</item>
+        <item>ZONIA RIAVLES</item>
+        <item>EMILIO TUNEZ</item>
+        <item>JOSE SANTOS</item>
+        <item>EMILIO TUNEZ</item>
+    </string-array>
+    <string-array name="spnArrHorario">
+        <item>Lunes  06:45 a.m - 07:45 a.m</item>
+        <item>Martes 07:15 a.m - 08:15 a.m</item>
+        <item>Miercoles 09:45 a.m - 10:45 a.m</item>
+        <item>Jueves 06:45 a.m - 07:45 a.m</item>
+        <item>Viernes 07:15 a.m - 08:15 a.m</item>
+        <item>Sábado 9:45 a.m - 10:45 a.m</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+</resources>

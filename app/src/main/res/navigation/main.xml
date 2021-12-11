@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/inicio">
+
+    <fragment
+        android:id="@+id/listarReserva"
+        android:name="com.example.appgimnasio.ListarReservaFragment"
+        android:label="fragment_listar_porcino"
+        tools:layout="@layout/fragment_listar_reserva" >
+        <action
+            android:id="@+id/action_listarPorcino_to_registrarPorcinoFragment"
+            app:destination="@id/registrarReserva" />
+        <action
+            android:id="@+id/action_listarReserva_to_registrarReserva"
+            app:destination="@id/registrarReserva" />
+    </fragment>
+    <fragment
+        android:id="@+id/inicio"
+        android:name="com.example.appgimnasio.InicioFragment"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" />
+    <fragment
+        android:id="@+id/listarDisciplina"
+        android:name="com.example.appgimnasio.ListarDisciplinaFragment"
+        android:label="fragment_listar_control_porcino"
+        tools:layout="@layout/fragment_listar_disciplina" >
+        <action
+            android:id="@+id/action_listarDisciplina_to_registrarDisciplina"
+            app:destination="@id/registrarDisciplina" />
+    </fragment>
+    <fragment
+        android:id="@+id/salir"
+        android:name="com.example.appgimnasio.SalirFragment"
+        android:label="fragment_salir"
+        tools:layout="@layout/fragment_salir" />
+    <activity
+        android:id="@+id/mapa"
+        android:name="com.example.appgimnasio.MapsActivity"
+        android:label="activity_maps"
+        tools:layout="@layout/activity_maps" />
+    <fragment
+        android:id="@+id/registrarReserva"
+        android:name="com.example.appgimnasio.RegistrarReservaFragment"
+        android:label="fragment_registrar_reserva"
+        tools:layout="@layout/fragment_registrar_reserva" >
+        <action
+            android:id="@+id/action_registrarPorcinoFragment_to_listarPorcino"
+            app:destination="@id/listarReserva" />
+    </fragment>
+    <fragment
+        android:id="@+id/registrarDisciplina"
+        android:name="com.example.appgimnasio.RegistrarDisciplinaFragment"
+        android:label="fragment_registrar_disciplina"
+        tools:layout="@layout/fragment_registrar_disciplina" >
+        <action
+            android:id="@+id/action_registrarDisciplina_to_listarDisciplina"
+            app:destination="@id/listarDisciplina" />
+    </fragment>
+    <fragment
+        android:id="@+id/cargarImagen"
+        android:name="com.example.appgimnasio.CargarImagenFragment"
+        android:label="fragment_cargar_imagen"
+        tools:layout="@layout/fragment_cargar_imagen" />
+</navigation>
